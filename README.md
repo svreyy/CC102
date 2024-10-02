@@ -1,2 +1,7 @@
-# CC102
-Fundamentals of Programming 
+#include <iostream>
+
+int main() 
+{
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
