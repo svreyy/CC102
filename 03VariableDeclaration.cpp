@@ -9,4 +9,5 @@ int main()
 	cin >> age;
 	cout << "Thank you!";
 	return 0;
+	
 }
