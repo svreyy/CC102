@@ -9,6 +9,7 @@ string nickname, school, cyl;
   cin>>cyl;
   cout<<"School:";
   cin>>school;
+  cout << "Wow, Congrats " 
 return 0;
   
 }
