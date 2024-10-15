@@ -45,6 +45,7 @@ int main() {
 	cout << "Item: Coffee, Quantity: " << coffeeQty << ", Total Cost: PHP " << coffeeCostPHP << endl;
 	cout << "Item: Milk, Quantity: " << milkQty << ", Total Cost: PHP " << milkCostPHP << endl;
 
-	
-    return 0;
+	cout << "\nTotal amount to be paid in PHP: PHP " << totalCostPHP << endl;
+   
+	return 0;
 }
