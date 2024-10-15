@@ -37,7 +37,6 @@ int main() {
 	float milkCostPHP = milkPriceUSD * milkQty;
 	float totalCostPHP = sugarCostPHP + riceCostPHP + sardinesCostPHP + coffeeCostPHP + milkCostPHP;
 
-	cout << fixed << setprecision(2); 
 	cout << "\n--- Purchase Details ---" << endl;
 	cout << "Item: Sugar, Quantity: " << sugarQty << ", Total Cost: PHP " << sugarCostPHP << endl;
 	cout << "Item: Rice, Quantity: " << riceQty << ", Total Cost: PHP " << riceCostPHP << endl;
