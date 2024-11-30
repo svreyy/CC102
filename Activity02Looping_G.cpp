@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
      int rows = 5; 
      int cols = 10; 
 
