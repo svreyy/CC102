@@ -7,10 +7,10 @@ int main() {
      int cols = 10; 
 
      for (int i = 0; i < rows; ++i) {
-           for (int j = 0; j < cols; ++j) {
-                cout << ((i % 2 == 0) ? "^  " : "  ^");
-           }
-          cout << endl;
+         for (int j = 0; j < cols; ++j) {
+             cout << ((i % 2 == 0) ? "^  " : "  ^");
+         }
+         cout << endl;
      }
      
      return 0;
