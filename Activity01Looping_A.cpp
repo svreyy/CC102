@@ -10,7 +10,7 @@ int main ()
       cout << " ";
     }
     for (int j = 0; j < n; ++j) {
-      cout << (j % 2 == 0 ? "# " : "* ");
+      cout << (j % 2 == 0 ? "#" : "*");
     }
     cout << endl;
   }
