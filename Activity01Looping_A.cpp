@@ -13,7 +13,6 @@ int main()
       cout << (j % 2 == 0 ? "# " : "* ");
     }
     cout << endl;
-
   }
   return 0;
 }
