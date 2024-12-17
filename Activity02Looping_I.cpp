@@ -5,9 +5,9 @@ using namespace std;
 int main ()
  {
      int n = 5; 
-     cout << "                             *" << endl;
+     cout << "          *" << endl;
      for (int i = 1; i <= n; ++i) {
-           cout << "                             ";
+           cout << "          ";
            for (int k = 0; k < i; ++k) {
                  cout << "^";
            }
@@ -23,13 +23,13 @@ int main ()
  
      }
      for (int i = n; i > 0; --i) {
-           cout << "                            ";
+           cout << "          ";
            for (int k = 0; k < i; ++k) {
                  cout << "^";
            }
            cout << "* " << endl;
      }
-      cout << "                            *" << endl;
+      cout << "          *" << endl;
 
       return 0;
 }
