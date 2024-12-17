@@ -4,19 +4,19 @@ using namespace std;
 int main (){
 
 	int n = 7;
-	for(int i = 0; i < n; ++i){
-		for(int j = 0; j < i; ++j){
+	for (int i = 0; i < n; ++i) {
+		for (int j = 0; j < i; ++j) {
 			cout << " ";
 		}
-	for(int k=0; k<n-i;++k){
-		if((i+k)%2==0){
+	for (int k=0; k < n-i; ++k) {
+		if ((i+k) % 2 == 0) {
 		    cout << "#";
 		}
-		else{
-		    cout<< "@";
+		else {
+		    cout << "@";
 		}
 	}
-	cout <<endl;
+	cout << endl;
 	}
 	
 	return 0;
